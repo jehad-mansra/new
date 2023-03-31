@@ -1,0 +1,17 @@
+div { 
+    width: 100px;
+    padding: 10px;
+    display: inline-block;
+    
+
+}
+
+.one{
+    background-color: red;
+    position: relative;
+    top: 10px;
+}
+
+.two{
+    background-color: blue;
+}

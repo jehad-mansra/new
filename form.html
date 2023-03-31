@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>div {text-align: center;}</style>
+
+
+<body style="color: blue;">
+    <h1>Dentist Appointment Reservation Form</h1>
+    <div>
+    <h2>* Mandatory field</h2>
+    <form action="">
+<label>full name*:</label>
+<br>
+<input type="text" placeholder="FirstName lastName"> <br>
+<label>Email address*:</label> <br> 
+
+<input type="email" placeholder="jon@example.com">
+<br>
+<label>Select the needed service*:</label> <br>
+<select name="whitening">
+    <option value="whitening"> whitening</option>
+    <option value="other"></option>
+</select>
+<br>
+<label> Appointment date*</label> <br>
+<input type="date" name="birthday">
+<br>
+<label>Appointment time*</label>
+<br>
+<input type="time">
+<br>
+<label>Special Note*:</label>
+<br>
+<textarea name="text" aria-valuetext="text" placeholder="enter your text her" ></textarea>
+<br>
+<label>Doctors preferred gender*:</label>
+<br>
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">male</label> 
+<br>
+<input type="radio" name="gender" id="female"><label for="female">female</label>
+<br>
+<label>Teams and conditions*:</label>
+<br>
+<input type="radio" name="yes"><label for="I agree">I agree</label> 
+<input type="radio" name="yes"><label for="I agree">I  disagree</label>
+<div>
+<br>
+<input type="submit" name="submit" value="Complete reservation">
+</div>
+    </form>
+</body>
+</div>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrion Forme</title>
+    <link rel="stylesheet" href="reg-gorm.css">
+</head>
+<body>
+    <h1>registrion Forme</h1>
+    <div class="f1">
+    <form>
+        <fieldset>
+             
+            <legend style="text-align: left;">Personal details</legend>
+            <label>first name  </label> 
+            <input type="text"> <br>
+            <label>last name  </label> 
+            <input type="text"><br>
+            <label>Email name</label>
+             <input type="email"><br>
+            <label>gender</label>
+            <input type="radio" name="gender" value="male" id="male"><label for="male" style="width: 40px ;">Male</label>
+            <input type="radio" name="gender" value="Female" id="female"><label for="female" style="width: 40px;">Female</label>
+
+        </fieldset>
+    </form>
+    </div>
+    <div class="f2">
+    <form>
+        <fieldset>
+            <legend style="text-align: left;">
+                city
+            </legend>
+            <label  >city</label>
+            <input list="city" value="amman" >
+            <datalist id="city" >
+                <option value="amman">amman</option>
+                    <option value="zarqa">zarqa</option>
+            </datalist>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

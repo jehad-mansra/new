@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+
+
+.yellow {
+    width: 40px;
+height: 40px;
+background-color: yellow;
+margin: 20px 2px 0px 2px ;
+}
+
+.green {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+
+}

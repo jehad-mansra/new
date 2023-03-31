@@ -1,0 +1,35 @@
+#box1 {
+    border: solid ;
+    width: 500px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+#box2 {
+    border: solid;
+    width: 500px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+#box3 {
+    border: dotted red;
+    width: 500px;
+    margin: 5px;
+background-color: aliceblue;
+}
+#text1 {
+    border: dotted red;
+    margin: 3px; ;
+}
+#page{
+    background-color: blanchedalmond;
+}
+.w1 {
+background-color: blue;
+}
+.w2{
+    background-color: brown;
+}
+.t1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
