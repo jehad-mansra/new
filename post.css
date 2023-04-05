@@ -1,0 +1,12 @@
+.con{
+    height: 300px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    padding: 50px;
+    border: 4px solid black;
+    gap: 73px;
+}
+h1{
+    border-bottom: 10px black;
+}

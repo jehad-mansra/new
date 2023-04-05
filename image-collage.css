@@ -1,0 +1,40 @@
+.con {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.m1 {
+    height: 20vh;
+
+}
+
+.m2 {
+    height: 30vh;
+
+}
+
+.m3 {
+    height: 15vh;
+
+}
+
+.m4 {
+    height: 35vh;
+
+}
+
+.m5 {
+    height: 50vh;
+
+}
+
+.m6 {
+    height: 25vh;
+
+}
+img{
+    height: 100%;
+}

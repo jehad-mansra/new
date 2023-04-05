@@ -1,0 +1,37 @@
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 50px 50px auto auto ;
+    gap: 10px;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    color: aliceblue;
+}
+.item-1 {
+    grid-area: 1/1/4/3;
+    background: #ff9b6d;
+    align-content: center;
+  }
+  .item-2 {
+    grid-area: 1/3/1/10;
+      background:#ffd37c;
+   }
+
+   .item-3 {
+    grid-area: 2/3/3/8;
+   background: #c8d878;
+  }
+   .item-4 {
+    grid-area: 2/8/3/10;
+     background: #7dbca9;
+   }
+   .item-5 {
+    grid-area: 3/3/4/10;
+     background: #87ceeb;
+   }
